@@ -1,0 +1,109 @@
+
+/*body
+{background-color: black; background-image: url(finalbg.jpg); background-size: 500px ;
+  background-repeat: no-repeat; background-position: 0px 100px;
+  overflow-x: hidden;
+  background-image: url(fries1.jpg); background-size: 300px; background-position: 600px;
+}*/
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: black;
+}
+
+.fries{
+  opacity: 2;
+  position: absolute; top: 0px; left: 0px;
+  height: 610px;
+}
+.pizzaimg{
+  opacity: 2;
+  position: absolute; top: 0px; left: 410px;
+  height: 610px;
+}
+.mojitoimg{
+  opacity: 2;
+  position: absolute; top: 0px; left: 820px;
+  height: 610px;
+}
+.name 
+{
+ font-weight: 700; font-style: italic; position: absolute; left: 2px; top: 0px; font-family: 'Times New Roman', Times, serif;
+ color: white;
+ font-size: xx-large;
+ 
+
+}
+
+.name1
+{
+  color: white; font-size: larger; position: relative; top: 10px;
+} 
+
+.navigation li {
+  display: inline-block;
+  position: relative; left: 850px; top: 20px;
+  padding-right: 5px;
+  
+  
+}
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+.pizzas {
+  font-size: xx-large;
+  position: relative; top: 0px; left: 620px;
+}
+.burgers {
+  position: relative; top: 210px; 
+  font-size: xx-large;
+}
+
+.mocktails {
+  font-size: xx-large;
+position: absolute; top: 200px; left: 900px;
+}
+  
+.desserts {
+  position: absolute; top: 300px; left: 900px;
+  color: white;
+}
+.milkshake{
+  position: absolute; top: 350px; left: 900px;
+  color: white;
+}
+.mocktails1{
+  position: absolute; top: 150px; left: 900px;
+  color: white;
+  font-size: xx-large;
+
+}
+.fries {
+  transition-property: height;
+  transition-duration: 4s;
+}
+
+.fries:hover {
+  height: 500px;
+}
+.pizzaimg {
+  transition-property: height;
+  transition-duration: 4s;
+  
+}
+
+.pizzaimg:hover {
+  height: 800px;
+}
+.mojitoimg {
+  transition-property: height;
+  transition-duration: 4s;
+  
+}
+
+.mojitoimg:hover {
+  height: 800px;
+}
+

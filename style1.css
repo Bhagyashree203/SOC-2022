@@ -1,0 +1,76 @@
+
+body{
+  background-image: url(black.webp); background-size: cover;
+}
+.navigation li {
+  display: inline-block;
+  position: relative; left: 850px; top: 20px;
+  padding-right: 5px;
+}
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+  form {
+  width: 300px;
+  padding: 10px;
+  margin: 0;
+  position: absolute; top: 500px; right: 650px;
+
+  color: white;
+
+} 
+.heading {
+  font-weight: bold; 
+
+}
+.pizza {
+  width: 200px;
+  position: absolute; top: 20px;
+}
+.mojito{
+  width: 200px;
+  position: relative; top: 270px;
+}
+.fries {
+  width: 200px;
+  position: absolute; top:460px; left: 7px;
+}
+.milkshake{
+  width: 200px;
+  position: absolute; top: 20px; right: 7px;
+}
+.cupcake{
+  width: 200px;
+  position: absolute; top: 232px; right: 7px;
+}
+.icecream{
+  width: 200px;
+  position: absolute; top: 440px; right: 7px;
+}
+
+.pizzamenu{
+  position: absolute; left: 300px; top: 60px;
+  color: white;
+}
+
+.friesmenu {
+position: absolute; left: 300px; top: 300px;
+color: white;
+
+}
+.mocktail{
+  position: absolute; left: 600px; top: 60px;
+  color: white;
+}
+.milkshakemenu {
+  position: absolute; left: 600px; top: 250px;
+  color: white;
+
+}
+.dessertmenu {
+  position: absolute; left: 600px; top: 450px;
+  color: white;
+}
+
