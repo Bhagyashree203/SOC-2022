@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+  
+ New Year Countdown!
+</title>
+<link rel="stylesheet" href="stylepage.css">
+</head>
+<body>
+  <p class="heading" > COUNTDOWN </p>
+  <div class="countdown"> 
+    <span id="day"> </span>
+    <span id="hour"></span>
+    <span id="minute"></span>
+    <span id="second"></span>
+  </div>
+  
+  <div id="spinner">
+<div></div>
+<div></div>
+  </div>
+<script>
+  var preloader = document.getElementById("spinner");
+  window.addEventListener("load", function(){
+    preloader.style.display = "none";
+  })
+
+  var countdate = new Date("Jan 1, 2023 00:00:00").getTime();
+function nye()
+{
+  var now = new Date().getTime();
+  var diff = countdate - now;
+  var days = Math.floor(diff/(1000*60*60*24));
+  var hours = Math.floor(diff % (1000*60*60*24)/(1000*60*60));
+  var minutes = Math.floor(diff % (1000*60*60)/(1000*60));
+  var seconds = Math.floor(diff % (1000*60)/(1000));
+
+ document.getElementById('day').innerText = days + " " + "Days |";
+ document.getElementById('hour').innerText = hours + " " + "Hours |";
+ document.getElementById('minute').innerText = minutes + " " + "Minutes |"
+ document.getElementById('second').innerText = seconds + " " + "Seconds"
+
+}
+
+setInterval(function(){ nye();}, 1000)
+    
+  
+
+</script>
+
+</body>
+
+
+
+</html>
